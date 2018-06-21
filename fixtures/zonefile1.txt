@@ -1,0 +1,52 @@
+; Zone: example.org.
+; Exported  (yyyy-mm-ddThh:mm:ss.sssZ): 2018-06-07T12:47:27.181Z
+
+$TTL 600
+
+; SOA Record
+example.org.	 		IN	SOA	dns0.example.org.	administrator.example.org.	(
+2015011200	 ;serial
+3600	 ;refresh
+3600	 ;retry
+604800	 ;expire
+3600	 ;minimum ttl
+)
+
+; NS Records
+example.org.	IN	NS	dns0.example.org.
+example.org.	IN	NS	dns1.example.org.
+
+; MX Records
+example.org.	IN	MX	10	mail1.example.org.
+example.org.	IN	MX	10	mail2.example.org.
+example.org.	IN	MX	10	mail3.example.org.
+example.org.	IN	MX	10	mail4.example.org.
+
+; A Records
+dns0	IN	A	1.1.1.1
+dns1	IN	A	11.11.11.11
+web	IN	A	2.2.2.2
+web	IN	A	22.22.22.22
+api	IN	A	3.3.3.3
+api	IN	A	33.33.33.33
+blog	IN	A	4.4.4.4
+blog	IN	A	44.44.44.44
+
+; AAAA Records
+
+; CNAME Records
+www	IN	CNAME	web
+en	IN	CNAME	web
+fr	IN	CNAME	web
+cn	IN	CNAME	web
+ru	IN	CNAME	web
+
+; PTR Records
+
+; TXT Records
+@	IN	TXT	2fd4e1c67a2d28fced849ee1bb76e7391b93eb12
+
+; SRV Records
+
+; SPF Records
+

@@ -1,0 +1,17 @@
+{
+  "name": "dns-zonefile-change",
+  "version": "0.0.1",
+  "description": "Handle programmatic changes in dns zone file with diff support",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "node node_modules/jest/bin/jest.js --detectOpenHandles --verbose ./tests"
+  },
+  "author": "Dmitri Chapkine",
+  "license": "MIT",
+  "dependencies": {
+    "dns-zonefile": "^0.2.2"
+  },
+  "devDependencies": {
+    "jest": "^23.1.0"
+  }
+}
