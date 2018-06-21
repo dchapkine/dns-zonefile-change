@@ -1,6 +1,6 @@
 {
   "name": "dns-zonefile-change",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Handle programmatic changes in dns zone file with diff support",
   "main": "src/index.js",
   "scripts": {
