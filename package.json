@@ -1,6 +1,6 @@
 {
   "name": "dns-zonefile-change",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Handle programmatic changes in dns zone file with diff support",
   "main": "dist/index.js",
   "scripts": {
@@ -18,5 +18,7 @@
     "babel-preset-env": "^1.7.0",
     "jest": "^23.1.0"
   },
-  "presets": ["env"]
+  "presets": [
+    "env"
+  ]
 }
